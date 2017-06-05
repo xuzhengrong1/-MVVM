@@ -14,6 +14,12 @@
 		96432C931EE4FEA100687347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96432C911EE4FEA100687347 /* LaunchScreen.storyboard */; };
 		96432C9E1EE4FEA100687347 /* ____MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96432C9D1EE4FEA100687347 /* ____MVVMTests.swift */; };
 		96432CA91EE4FEA100687347 /* ____MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96432CA81EE4FEA100687347 /* ____MVVMUITests.swift */; };
+		96432CB71EE4FF0D00687347 /* GeneralDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96432CB61EE4FF0D00687347 /* GeneralDataSource.swift */; };
+		96432CB91EE4FF1500687347 /* XZRRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96432CB81EE4FF1500687347 /* XZRRuntime.swift */; };
+		96432CBB1EE5018800687347 /* SettingModeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96432CBA1EE5018800687347 /* SettingModeViewModel.swift */; };
+		96432CBD1EE5019C00687347 /* SwitchWithTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96432CBC1EE5019C00687347 /* SwitchWithTextTableViewCell.swift */; };
+		96432CBF1EE5046F00687347 /* SwitchWithTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96432CBE1EE5046F00687347 /* SwitchWithTextTableViewCell.xib */; };
+		96432CC31EE507E800687347 /* UITableView+RegisterNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96432CC21EE507E800687347 /* UITableView+RegisterNib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		96432CA41EE4FEA100687347 /* 面向协议MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "面向协议MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96432CA81EE4FEA100687347 /* ____MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____MVVMUITests.swift"; sourceTree = "<group>"; };
 		96432CAA1EE4FEA100687347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96432CB61EE4FF0D00687347 /* GeneralDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralDataSource.swift; sourceTree = "<group>"; };
+		96432CB81EE4FF1500687347 /* XZRRuntime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZRRuntime.swift; sourceTree = "<group>"; };
+		96432CBA1EE5018800687347 /* SettingModeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingModeViewModel.swift; sourceTree = "<group>"; };
+		96432CBC1EE5019C00687347 /* SwitchWithTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchWithTextTableViewCell.swift; sourceTree = "<group>"; };
+		96432CBE1EE5046F00687347 /* SwitchWithTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchWithTextTableViewCell.xib; sourceTree = "<group>"; };
+		96432CC21EE507E800687347 /* UITableView+RegisterNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterNib.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +109,13 @@
 		96432C871EE4FEA000687347 /* 面向协议MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				96432CC21EE507E800687347 /* UITableView+RegisterNib.swift */,
 				96432C881EE4FEA100687347 /* AppDelegate.swift */,
+				96432CBC1EE5019C00687347 /* SwitchWithTextTableViewCell.swift */,
+				96432CBE1EE5046F00687347 /* SwitchWithTextTableViewCell.xib */,
+				96432CBA1EE5018800687347 /* SettingModeViewModel.swift */,
+				96432CB81EE4FF1500687347 /* XZRRuntime.swift */,
+				96432CB61EE4FF0D00687347 /* GeneralDataSource.swift */,
 				96432C8A1EE4FEA100687347 /* ViewController.swift */,
 				96432C8C1EE4FEA100687347 /* Main.storyboard */,
 				96432C8F1EE4FEA100687347 /* Assets.xcassets */,
@@ -234,6 +252,7 @@
 			files = (
 				96432C931EE4FEA100687347 /* LaunchScreen.storyboard in Resources */,
 				96432C901EE4FEA100687347 /* Assets.xcassets in Resources */,
+				96432CBF1EE5046F00687347 /* SwitchWithTextTableViewCell.xib in Resources */,
 				96432C8E1EE4FEA100687347 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +280,11 @@
 			files = (
 				96432C8B1EE4FEA100687347 /* ViewController.swift in Sources */,
 				96432C891EE4FEA100687347 /* AppDelegate.swift in Sources */,
+				96432CB71EE4FF0D00687347 /* GeneralDataSource.swift in Sources */,
+				96432CC31EE507E800687347 /* UITableView+RegisterNib.swift in Sources */,
+				96432CBB1EE5018800687347 /* SettingModeViewModel.swift in Sources */,
+				96432CBD1EE5019C00687347 /* SwitchWithTextTableViewCell.swift in Sources */,
+				96432CB91EE4FF1500687347 /* XZRRuntime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
